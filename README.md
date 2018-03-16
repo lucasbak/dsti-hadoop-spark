@@ -12,7 +12,7 @@
 ```
 * connect to your home on the dsti cluster
 ```bash
-    ssh lucas@c2-52-209-205-181.eu-west-1.compute.amazonaws.com
+    ssh lucas@ec2-52-209-205-181.eu-west-1.compute.amazonaws.com
 ```
 * extract sample data
 ```bash
@@ -23,7 +23,7 @@
 
 * connect to your home on the dsti cluster
 ```bash
-    ssh lucas@c2-52-209-205-181.eu-west-1.compute.amazonaws.com
+    ssh lucas@ec2-52-209-205-181.eu-west-1.compute.amazonaws.com
 ```
 
 * create a db_directorys
@@ -48,7 +48,7 @@
 
 * connect to your home on the dsti cluster
 ```bash
-    ssh lucas@c2-52-209-205-181.eu-west-1.compute.amazonaws.com
+    ssh lucas@ec2-52-209-205-181.eu-west-1.compute.amazonaws.com
 ```
 
 * connect hiveserver2
@@ -113,7 +113,7 @@ example of main func
 
 * connect to the cluster (local machine)
 ```bash
-    ssh lucas@c2-52-209-205-181.eu-west-1.compute.amazonaws.com
+    ssh lucas@ec2-52-209-205-181.eu-west-1.compute.amazonaws.com
 ```
 
 * submit the job (remote machine)
@@ -244,7 +244,7 @@ curl -XPUT '10.0.0.52:29000/lucas_index/_mapping/accidents_0507?pretty' -H 'Cont
 
 * connect to your home on the dsti cluster
 ```bash
-    ssh lucas@c2-52-209-205-181.eu-west-1.compute.amazonaws.com
+    ssh lucas@ec2-52-209-205-181.eu-west-1.compute.amazonaws.com
 ```
 
 * submit your application
